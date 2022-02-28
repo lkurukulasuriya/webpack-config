@@ -1,7 +1,13 @@
-const champion = {
-  name: 'Ashe',
+const ashe = {
   gender: 'F',
   role: 'ADC',
+  range: 120,
 }
 
-console.log(champion)
+const projectAshe = {
+  ...ashe,
+  skin: 'project',
+}
+
+console.log(ashe)
+console.log(projectAshe)
